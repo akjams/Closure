@@ -16,9 +16,9 @@ func main() {
 func makeCounter() func() int {
   var count int
   
-  increment := func() int {
+  incrementAndGet := func() int {
     count++
     return count
   }
-  return increment
+  return incrementAndGet
 }
