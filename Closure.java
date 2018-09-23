@@ -1,7 +1,7 @@
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Supplier;
 
-public class JavaClosure {
+public class Closure {
 
   public static void main(String[] args) {
     Supplier<Integer> c1 = makeCounter();

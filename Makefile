@@ -1,5 +1,5 @@
 runAll:
-	go run goclosure.go
-	python3 pythonclosure.py
-	node jsclosure.js
-	javac JavaClosure.java && java JavaClosure && rm JavaClosure.class
+	go run closure.go
+	python3 closure.py
+	node closure.js
+	javac Closure.java && java Closure && rm Closure.class
